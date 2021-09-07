@@ -15,5 +15,7 @@ Bode plots of any extension can be produced. Here's an example plot:
 ![example](https://github.com/foggmatias/auto-measurements/blob/master/bode_example.png "Example")
 
 ## Installation instructions
+
 Install dependencies using "pip install -r requirements.txt"
+
 Execute guiElements.py to run
