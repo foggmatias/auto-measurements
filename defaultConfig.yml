@@ -1,0 +1,78 @@
+# DEFAULT SETTINGS FOR BODE SOFTWARE
+# DO NOT MODIFY UNLESS YOU ARE FLUENT IN VISA AND KNOW WHAT YOU ARE DOING
+# YOU HAVE NO OTHER COPY OF THIS
+# THE PROGRAM CAN BE RENDERED USELESS IF THIS FILE IS CORRUPTED
+
+console:
+    verbose: True # Bool value to decide if console prints output during execution
+
+sampling: # Sampling behaviour: parameters for filtering noise in the signal
+    minSamples: 3 # Minimum samples taken per point 
+    maxSamples: 30 # Maximum samples that can be taken if signal is noisy enough
+    vClearance: 0.7 # Height of vertical margins, in units of Vpp/100
+    periods: 3 # Minimum periods taken into consideration for measurements
+    maxTries: 3 # Maximum number of times an irregular point is measured again before being ignored
+    measTimeSpacing: 0.1 # Maximum random time between repeated measurements, in seconds
+
+autostep:
+    ratioTolerance: 0.5
+    minStep: 5
+    maxStep: 300
+    minCountSinceFail: 3
+    stepFactor: 1.5
+
+interpolation:
+    secDerivWeight: 0.8
+    closeness: 0.3
+    initialSamples: 5
+
+instrument:
+    delay: 0.0001 #Delay for instrument communication in seconds
+
+
+#Oscilloscope settings
+
+probe1:
+    coupling: "DC"
+    ratio: "X1"
+    vernier: "0"
+    invert: "0"
+    BWL: "0"
+
+probe2:
+    coupling: "DC"
+    ratio: "X1"
+    vernier: "0"
+    invert: "0"
+    BWL: "0"
+
+probe3:
+    coupling: "DC"
+    ratio: "X1"
+    vernier: "0"
+    invert: "0"
+    BWL: "0"
+
+probe4:
+    coupling: "DC"
+    ratio: "X1"
+    vernier: "0"
+    invert: "0"
+    BWL: "0"
+
+acquire:
+    mode: "NORM"
+
+trigger:
+    source: "CHAN1"
+    mode: "AUTO"
+    noiseReject: "1"
+    HFReject: "0"
+    coupling: "DC"
+
+
+# Generator settings
+generator:
+    autoOff: True
+    impedance: "INF"
+    waveform: "SIN"

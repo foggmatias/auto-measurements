@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scipy
+pyyaml
+visa
+PyQt5
+configparser
+pandas
+
+
+python >= 3.0

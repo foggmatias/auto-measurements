@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AutoMeasurements", "AutoMeasurements.pyproj", "{C0DC7A6E-752B-4369-9A74-A71D499D956E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0DC7A6E-752B-4369-9A74-A71D499D956E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DC7A6E-752B-4369-9A74-A71D499D956E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4524D6EC-CD91-48FC-8DD9-83E347528BA0}
+	EndGlobalSection
+EndGlobal
